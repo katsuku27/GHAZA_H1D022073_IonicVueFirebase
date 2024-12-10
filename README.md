@@ -59,46 +59,57 @@ Ketika user menekan tombol logout, aplikasi akan menjalankan method logout(). Pr
 ## add todo
 ### form todo
 ![alt text](addTodo.png)
+
 menambahkan todo menggunakan halaman baru dengan form input title dan description Setelah mengisi dan menekan tombol submit, todo baru akan ditambahkan ke dalam daftar dan langsung ditampilkan di halaman utama.
 
 ### after add
 ![alt text](afteradd.png)
+
 todo list akan muncul pada halaman home setelah disubmit
 
 ## edit todo
 ![alt text](editbutton.png)
+
 edit button terlihat dengan menggeser ke arah kiri dan terdapat button warna biru
 
 ### edit todo form
 ![alt text](editform.png)
+
 setelah menekan tombol edit maka akan muncul form edit. dapat mengubah title dan description lalu tekan tombol edit todo makan form baru terimput
 
 ### after edit
 ![alt text](afterEdit.png)
+
 data todo yang telah diedit akan berubah pada homepage
 
 ## completed todo
 ![alt text](completebutton.png)
+
 tombol complete todo dapat ditemukan dengan menggeser kekiri lalu tekan tombol warna ijo
 
 ### after completed todo
 ![alt text](aftercompleted.png)
+
 setelah ditekan button completed maka akan muncul pada bagian completed.
 
 ## mengaktifkan todo 
 ![alt text](buttonaktiftodo.png)
+
 untuk mengaktifkan todo dengan menggeser kekiri lalu tekan tombol warna kuning
 
 ### after aktifkan todo
 ![alt text](afteraktifasi.png)
+
 setelah digunakan maka akan kembali keatas untuk todo
 
 ## mendelete todo
 ![alt text](deletebutton.png)
+
 delete todo dapat ditemukan dengan geser kekanan dan tombol warna merah
 
 ### after delete
 ![alt text](afterdelete.png)
+
 setelah ditekan tombolnya maka akan hilang dari halaman home
 
 ## Build APK Ionic dan Konfigurasi Firebase untuk Android
