@@ -107,26 +107,26 @@ setelah ditekan tombolnya maka akan hilang dari halaman home
 Pastikan semua dependensi yang dibutuhkan sudah terinstal dengan benar di sistem Anda.
 
 #### Instal Ionic CLI secara global
-`` npm install -g @ionic/cli ``
+``` npm install -g @ionic/cli ```
 
 #### Instal semua dependensi proyek
-`` npm install ``
+``` npm install ```
 
 ### 2. Menambahkan Platform Android
 Tambahkan platform Android ke dalam proyek Ionic. Langkah ini hanya perlu dilakukan sekali saat pertama kali setup proyek.
-`` ionic cap add android ``
+``` ionic cap add android ```
 
 ### 3. Build Proyek Ionic
 Lakukan build proyek Ionic untuk menghasilkan file-file yang dibutuhkan untuk aplikasi Android.
-`` ionic build ``
+``` ionic build ```
 
 ### 4. Sinkronisasi dengan Capacitor
 Setelah build selesai, lakukan sinkronisasi untuk memastikan semua perubahan terbaru masuk ke dalam proyek Android.
-`` ionic cap sync android ``
+``` ionic cap sync android ```
 
 ### 5. Membuka Proyek di Android Studio
 Buka proyek Android yang sudah di-generate untuk melakukan build APK.
-`` ionic cap open android ``
+``` ionic cap open android ```
 
 ### 6. Generate Signed APK
 Setelah proyek terbuka di Android Studio, ikuti langkah-langkah berikut:
@@ -137,8 +137,7 @@ Setelah proyek terbuka di Android Studio, ikuti langkah-langkah berikut:
 - Setelah proses build selesai, file APK dapat ditemukan di android/app/build/outputs/apk/release/app-release.apk
 
 ### 7. Config FIREBASE
-- Buka CMD cari keystore dengan menuju ke direktori proyek Anda lalu ke direktori android dan ketikan:
-`` gradlew signingReport ``
+- Buka CMD cari keystore dengan menuju ke direktori proyek Anda lalu ke direktori android dan ketikan: `` gradlew signingReport ``
 - Buka Firebase Console, lalu buka project vue-firebasenya dan pergi ke project settings
 - Scroll ke bawah sampai menemukan "Your App" >> Klik "Add app" >> Pilih yang Android
 - Ikuti langkah-langkahnya dan sesuaikan Package Name dengan appId yang ada di file ``capacitor.config.ts``
